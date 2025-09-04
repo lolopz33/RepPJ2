@@ -1,0 +1,117 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  line-height: 1.6;
+  background-color: #f4fdf4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #2e7d32;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+              url("assets/nature.jpg") center/cover no-repeat;
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #2e7d32;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background: #1b5e20;
+}
+
+/* Impacto */
+#impacto {
+  padding: 30px;
+  background: #e8f5e9;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#impacto ul {
+  list-style: none;
+}
+
+#impacto li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Sobre */
+#sobre {
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
